@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "yarn webpack-dev-server --config ./webpack.config.js --open"
+  },
   "dependencies": {
-    "webpack": "^5.74.0",
+    "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "webpack-dev-server": "^4.11.1"
-  }
+  },
+  "repository": "https://github.com/ro2907/my-first-webpack.git",
+  "author": "Rodrigo Sebastian Alarcon <powerjujuy1@gmail.com>"
 }
