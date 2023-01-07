@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "yarn webpack --config ./webpack.config.js",
     "start": "yarn webpack-dev-server --config ./webpack.config.js --open"
   },
   "dependencies": {
@@ -11,6 +12,7 @@
     "webpack-cli": "^4.10.0"
   },
   "devDependencies": {
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack-dev-server": "^4.11.1"
   },
